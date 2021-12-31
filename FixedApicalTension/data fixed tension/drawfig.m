@@ -43,10 +43,10 @@ G = graph(s,t);
 P = plot(ax,G,'-','XData',xdata,'YData',ydata,'Marker','none','LineWidth',2);
 labelnode(P,1:n,'')
 
-% xlim([-1.5 2.5])
-% ylim([-1.5 2.5])
-xlim([-1.2 1.2])
-ylim([-1.2 1.2])
+xlim([-1.5 2.5])
+ylim([-1.5 2.5])
+% xlim([-1.2 1.2])
+% ylim([-1.2 1.2])
 axis square
 
 end

@@ -8,7 +8,7 @@ clc
 % load('Record_local_compress_3.75_N.mat')
 % load('b0.5g1.0rep.mat')
 % load('Demo.mat')
-load('ParabolicTimeDependenceOfApicalTension.mat');
+load('ApicalDynamicTension_LateralIncreaseAndBasalDepletion.mat');
 NumofFrames = size(Record.pos,1);
 NumofVertices = size(Record.pos,3);
 
